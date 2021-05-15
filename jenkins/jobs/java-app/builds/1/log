@@ -1,0 +1,22 @@
+Started by user [8mha:////4KwtUDQtZWhZ9GxNaykTAFbu03hgg3HG0dO/Vjd0xR3AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/java-app
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/JaneRands/Java-app.git
+ > /usr/bin/git init /home/labsuser/jenkins/workspace/java-app # timeout=10
+Fetching upstream changes from https://github.com/JaneRands/Java-app.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/JaneRands/Java-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/JaneRands/Java-app.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 601ce83b06a9ec1d50260e6f9184ac86387ae563 (refs/remotes/origin/main)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 601ce83b06a9ec1d50260e6f9184ac86387ae563 # timeout=10
+Commit message: "adding hello world"
+First time build. Skipping changelog.
+Finished: SUCCESS

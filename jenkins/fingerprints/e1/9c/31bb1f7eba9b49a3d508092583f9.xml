@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-05-14 17:30:29.418 UTC</timestamp>
+  <original>
+    <name>sample-maven-app/com.mycompany.app:my-app</name>
+    <number>1</number>
+  </original>
+  <md5sum>e19c31bb1f7eba9b49a3d508092583f9</md5sum>
+  <fileName>com.mycompany.app:my-app-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>sample-maven-app/com.mycompany.app:my-app</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample-maven-app</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

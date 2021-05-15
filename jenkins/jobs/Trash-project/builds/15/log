@@ -1,0 +1,6 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/Trash-project
+[Trash-project] $ /bin/sh -xe /tmp/jenkins14655779897923221189.sh
++ sudo rm -rf /home/labsuser/Trash-files/*
+Finished: SUCCESS

@@ -1,0 +1,38 @@
+Started by an SCM change
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/poll-scm
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /home/labsuser/jenkins/workspace/poll-scm/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/sujee/simple-java-maven-app # timeout=10
+Fetching upstream changes from https://github.com/sujee/simple-java-maven-app
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/sujee/simple-java-maven-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 9cbf6a91a523e04c68bdaf5aa1f192a48d3ef832 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 9cbf6a91a523e04c68bdaf5aa1f192a48d3ef832 # timeout=10
+Commit message: "Merge branch 'jenkins-docs:master' into master"
+ > /usr/bin/git rev-list --no-walk 7a4ebba7c2696e68712c80bd631aa88e861a9f04 # timeout=10
+[poll-scm] $ /bin/sh -xe /tmp/jenkins1466718360062360352.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/labsuser/jenkins/workspace/poll-scm/pom.xml: Duplicated tag: 'properties' (position: START_TAG seen ...</dependencies>\n  <properties>... @22:15)  @ line 22, column 15
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project  (/home/labsuser/jenkins/workspace/poll-scm/pom.xml) has 1 error
+[ERROR]     Non-parseable POM /home/labsuser/jenkins/workspace/poll-scm/pom.xml: Duplicated tag: 'properties' (position: START_TAG seen ...</dependencies>\n  <properties>... @22:15)  @ line 22, column 15 -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

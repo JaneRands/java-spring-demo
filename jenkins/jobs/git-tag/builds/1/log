@@ -1,0 +1,23 @@
+Started by user [8mha:////4KwtUDQtZWhZ9GxNaykTAFbu03hgg3HG0dO/Vjd0xR3AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/git-tag
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/JaneRands/simple-java-maven-app.git
+ > /usr/bin/git init /home/labsuser/jenkins/workspace/git-tag # timeout=10
+Fetching upstream changes from https://github.com/JaneRands/simple-java-maven-app.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/JaneRands/simple-java-maven-app.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/JaneRands/simple-java-maven-app.git # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse origin/v1.0^{commit} # timeout=10
+ > /usr/bin/git rev-parse v1.0^{commit} # timeout=10
+Checking out Revision 125540136b70ed57ec520e8039c26028eded3fa4 (v1.0)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 125540136b70ed57ec520e8039c26028eded3fa4 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+Finished: SUCCESS

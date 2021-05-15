@@ -1,0 +1,7 @@
+Started by remote host 127.0.0.1
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/build-w-param
+[build-w-param] $ /bin/sh -xe /tmp/jenkins13758174932207408931.sh
++ echo xyz
+xyz
+Finished: SUCCESS

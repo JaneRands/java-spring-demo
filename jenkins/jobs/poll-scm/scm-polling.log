@@ -1,0 +1,12 @@
+Started on May 15, 2021, 5:30:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 9cbf6a91a523e04c68bdaf5aa1f192a48d3ef832 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git ls-remote -h -- https://github.com/sujee/simple-java-maven-app # timeout=10
+Found 3 remote heads on https://github.com/sujee/simple-java-maven-app
+[poll] Latest remote head revision on refs/heads/master is: 9cbf6a91a523e04c68bdaf5aa1f192a48d3ef832 - already built by 2
+Done. Took 0.29 sec
+No changes

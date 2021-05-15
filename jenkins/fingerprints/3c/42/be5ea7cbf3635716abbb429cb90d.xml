@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-05-14 17:30:29.484 UTC</timestamp>
+  <md5sum>3c42be5ea7cbf3635716abbb429cb90d</md5sum>
+  <fileName>junit:junit-4.11.jar</fileName>
+  <usages>
+    <entry>
+      <string>sample-maven-app/com.mycompany.app:my-app</string>
+      <ranges>1-4</ranges>
+    </entry>
+    <entry>
+      <string>sample-maven-app</string>
+      <ranges>1-4</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

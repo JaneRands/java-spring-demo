@@ -1,0 +1,90 @@
+Started by user [8mha:////4KwtUDQtZWhZ9GxNaykTAFbu03hgg3HG0dO/Vjd0xR3AAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0mAdmin
+Running as SYSTEM
+Building in workspace /home/labsuser/jenkins/workspace/poll-scm
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/sujee/simple-java-maven-app
+ > /usr/bin/git init /home/labsuser/jenkins/workspace/poll-scm # timeout=10
+Fetching upstream changes from https://github.com/sujee/simple-java-maven-app
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > /usr/bin/git fetch --tags --progress -- https://github.com/sujee/simple-java-maven-app +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git config remote.origin.url https://github.com/sujee/simple-java-maven-app # timeout=10
+ > /usr/bin/git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 7a4ebba7c2696e68712c80bd631aa88e861a9f04 (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 7a4ebba7c2696e68712c80bd631aa88e861a9f04 # timeout=10
+Commit message: "build 1"
+First time build. Skipping changelog.
+[poll-scm] $ /bin/sh -xe /tmp/jenkins16927952696011217019.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 2.7/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 12 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom
+Progress (1): 2.7/13 kBProgress (1): 5.5/13 kBProgress (1): 8.2/13 kBProgress (1): 11/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/22/maven-plugins-22.pom (13 kB at 130 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.7/25 kBProgress (1): 5.5/25 kBProgress (1): 8.2/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 22/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 397 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 2.7/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 69 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+Progress (1): 2.7/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 135 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+Progress (1): 2.7/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 137 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (1): 2.7/226 kBProgress (1): 5.5/226 kBProgress (1): 8.2/226 kBProgress (1): 11/226 kB Progress (1): 14/226 kBProgress (1): 16/226 kBProgress (1): 19/226 kBProgress (1): 22/226 kBProgress (1): 25/226 kBProgress (1): 27/226 kBProgress (1): 30/226 kBProgress (1): 33/226 kBProgress (1): 36/226 kBProgress (1): 38/226 kBProgress (1): 41/226 kBProgress (1): 44/226 kBProgress (1): 47/226 kBProgress (1): 49/226 kBProgress (1): 52/226 kBProgress (1): 55/226 kBProgress (1): 58/226 kBProgress (1): 60/226 kBProgress (1): 63/226 kBProgress (1): 66/226 kBProgress (1): 69/226 kBProgress (1): 71/226 kBProgress (1): 74/226 kBProgress (1): 77/226 kBProgress (1): 80/226 kBProgress (1): 82/226 kBProgress (1): 85/226 kBProgress (1): 88/226 kBProgress (1): 90/226 kBProgress (1): 93/226 kBProgress (1): 96/226 kBProgress (1): 99/226 kBProgress (1): 101/226 kBProgress (1): 104/226 kBProgress (1): 107/226 kBProgress (1): 110/226 kBProgress (1): 112/226 kBProgress (1): 115/226 kBProgress (1): 118/226 kBProgress (1): 121/226 kBProgress (1): 123/226 kBProgress (1): 126/226 kBProgress (1): 129/226 kBProgress (1): 132/226 kBProgress (1): 134/226 kBProgress (1): 137/226 kBProgress (1): 140/226 kBProgress (1): 143/226 kBProgress (1): 145/226 kBProgress (1): 148/226 kBProgress (1): 151/226 kBProgress (1): 154/226 kBProgress (1): 156/226 kBProgress (1): 159/226 kBProgress (1): 162/226 kBProgress (1): 165/226 kBProgress (1): 167/226 kBProgress (1): 170/226 kBProgress (1): 173/226 kBProgress (1): 175/226 kBProgress (1): 178/226 kBProgress (1): 181/226 kBProgress (1): 184/226 kBProgress (1): 186/226 kBProgress (1): 189/226 kBProgress (1): 192/226 kBProgress (1): 195/226 kBProgress (1): 197/226 kBProgress (1): 200/226 kBProgress (1): 203/226 kBProgress (1): 206/226 kBProgress (1): 208/226 kBProgress (1): 211/226 kBProgress (1): 214/226 kBProgress (1): 217/226 kBProgress (1): 219/226 kBProgress (1): 222/226 kBProgress (1): 225/226 kBProgress (1): 226 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 2.3 MB/s)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/labsuser/jenkins/workspace/poll-scm/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/labsuser/jenkins/workspace/poll-scm/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/labsuser/jenkins/workspace/poll-scm/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/labsuser/jenkins/workspace/poll-scm/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Surefire report directory: /home/labsuser/jenkins/workspace/poll-scm/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ my-app ---
+[INFO] Building jar: /home/labsuser/jenkins/workspace/poll-scm/target/my-app-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ my-app ---
+[INFO] Installing /home/labsuser/jenkins/workspace/poll-scm/target/my-app-1.0-SNAPSHOT.jar to /home/labsuser/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
+[INFO] Installing /home/labsuser/jenkins/workspace/poll-scm/pom.xml to /home/labsuser/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.058 s
+[INFO] Finished at: 2021-05-14T20:29:45Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

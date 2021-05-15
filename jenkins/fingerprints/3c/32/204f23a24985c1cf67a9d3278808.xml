@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2021-05-14 17:30:29.353 UTC</timestamp>
+  <original>
+    <name>sample-maven-app/com.mycompany.app:my-app</name>
+    <number>1</number>
+  </original>
+  <md5sum>3c32204f23a24985c1cf67a9d3278808</md5sum>
+  <fileName>com.mycompany.app:my-app:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>sample-maven-app/com.mycompany.app:my-app</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample-maven-app</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

@@ -1,0 +1,36 @@
+Started at Sat May 15 15:16:49 UTC 2021
+Processing build-w-param
+Offering build-w-param to Project Build Discarder
+Processing git-tag
+Offering git-tag to Project Build Discarder
+Processing java-app
+Offering java-app to Project Build Discarder
+Processing param-build
+Offering param-build to Project Build Discarder
+Processing poll-scm
+Offering poll-scm to Project Build Discarder
+Processing sample-maven-app
+Offering sample-maven-app to Project Build Discarder
+Processing Trash-project
+Offering Trash-project to Project Build Discarder
+Processing sample-maven-app/com.mycompany.app:my-app
+Offering sample-maven-app/com.mycompany.app:my-app to Project Build Discarder
+Finished at Sat May 15 15:16:49 UTC 2021. 17ms
+Started at Sat May 15 16:16:49 UTC 2021
+Processing build-w-param
+Offering build-w-param to Project Build Discarder
+Processing git-tag
+Offering git-tag to Project Build Discarder
+Processing java-app
+Offering java-app to Project Build Discarder
+Processing param-build
+Offering param-build to Project Build Discarder
+Processing poll-scm
+Offering poll-scm to Project Build Discarder
+Processing sample-maven-app
+Offering sample-maven-app to Project Build Discarder
+Processing Trash-project
+Offering Trash-project to Project Build Discarder
+Processing sample-maven-app/com.mycompany.app:my-app
+Offering sample-maven-app/com.mycompany.app:my-app to Project Build Discarder
+Finished at Sat May 15 16:16:49 UTC 2021. 3ms

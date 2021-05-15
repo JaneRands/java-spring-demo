@@ -1,0 +1,56 @@
+commit cb1f461e7da02f8b89cc1cace8878e48f398ffe3
+tree 424a7169a96cc7b3ec80e29cf0b7de7d3df9cb78
+parent c6002e5f8d7698c1f12a414a7939738812a9d8d9
+author Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:44:36 -0600
+committer Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:44:36 -0600
+
+    Enforce maven 3.5.4 or newer
+
+
+:100644 100644 7c1ac3db6c1c25db5198c460379161bd3ace259a 6f3a1ad9ac66e909860b652e091e8baa7b4938ed M	pom.xml
+commit c6002e5f8d7698c1f12a414a7939738812a9d8d9
+tree 1af0f05f5aa9274a0f15903065f4427e202894fe
+parent 683ddf7cd72f3b36472db43d5b3d805f6ad23a45
+author Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:02:27 -0600
+committer Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:02:27 -0600
+
+    Use latest maven jar plugin
+
+
+:100644 100644 035f444ae4ba51929e5d76f2d794e9daade5b3f8 7c1ac3db6c1c25db5198c460379161bd3ace259a M	pom.xml
+commit 683ddf7cd72f3b36472db43d5b3d805f6ad23a45
+tree cc6c77f06d7c1c642200d9822fcf21e68e134c50
+parent f590cc4f5e78e05ff590e7ac04063191cb4237a2
+author Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:01:55 -0600
+committer Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:01:55 -0600
+
+    Declare source code is UTF-8 encoded
+
+
+:100644 100644 8edcead2f021c520c477e1b0a91395d253df508b 035f444ae4ba51929e5d76f2d794e9daade5b3f8 M	pom.xml
+commit f590cc4f5e78e05ff590e7ac04063191cb4237a2
+tree 36520409e71e9993f79cc6d85f53bc4462f346ce
+parent f9b7b32428fab0dbedf5c9805ff340176bdaf9cc
+author Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:01:28 -0600
+committer Mark Waite <mark.earl.waite@gmail.com> 2021-04-13 18:01:28 -0600
+
+    Use maven compiler 3.8.1 to resolve compiler complaints
+
+
+:100644 100644 68db9804c427470bc95fb1528f68b3551ea22852 8edcead2f021c520c477e1b0a91395d253df508b M	pom.xml
+commit 5a7366036f04c2b7c0d5f36f045e00056b2ede86
+tree 0749310f76f1253dfeaa919c22a1819d38909095
+parent 0d85b7e1fd39bc6978511f92381aa10534ca4c1b
+author dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> 2020-10-13 03:44:24 +0000
+committer GitHub <noreply@github.com> 2020-10-13 03:44:24 +0000
+
+    Bump junit from 4.11 to 4.13.1
+    
+    Bumps [junit](https://github.com/junit-team/junit4) from 4.11 to 4.13.1.
+    - [Release notes](https://github.com/junit-team/junit4/releases)
+    - [Changelog](https://github.com/junit-team/junit4/blob/main/doc/ReleaseNotes4.11.md)
+    - [Commits](https://github.com/junit-team/junit4/compare/r4.11...r4.13.1)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+:100644 100644 19ee4305a859d0ed77496ccabf20040ec9214bb3 68db9804c427470bc95fb1528f68b3551ea22852 M	pom.xml
